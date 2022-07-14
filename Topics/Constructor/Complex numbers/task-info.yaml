@@ -1,0 +1,26 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  learner_created: true
+- name: src/Complex.java
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/2986#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    Main.java:9: error: cannot find symbol
+            Complex complex = new Complex(scanner.nextDouble(), scanner.nextDouble());
+            ^
+      symbol:   class Complex
+      location: class ComplexDemo
+    Main.java:9: error: cannot find symbol
+            Complex complex = new Complex(scanner.nextDouble(), scanner.nextDouble());
+                                  ^
+      symbol:   class Complex
+      location: class ComplexDemo
+    2 errors
+  time: Mon, 11 Jul 2022 07:14:57 UTC
+record: -1
